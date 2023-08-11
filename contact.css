@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+
+*{font-family: "poppins", sans-serif;
+
+}
+form{
+    width: 350px;
+    margin: 50px auto;
+    padding: 10px;
+}
+
+form div {
+    margin-top: 15px;
+}
+
+label {
+    font-weight: black;
+}
+
+input,
+select,
+textarea {
+    background-color: #dfdede;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #dbdbdb;
+}
+
+button {
+    background-color: orangered;
+    color: white;
+    padding: 6px 25px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    resize: none;
+}
+
+button:hover {
+    background-color: black;
+}
+
+.navbar {
+    display: flex; /* Menggunakan Flexbox untuk menyusun link */
+    background-color: #333; /* Warna latar belakang navbar */
+  }
+  
+  .navbar a {
+    color: white; /* Warna teks link */
+    padding: 14px 20px; /* Jarak antara teks dan tepi link */
+    text-decoration: none; /* Menghilangkan garis bawah pada link */
+  }
+  
+  .navbar a:hover {
+    background-color: #ddd; /* Warna latar belakang link saat di-hover */
+    color: black; /* Warna teks link saat di-hover */
+  }
